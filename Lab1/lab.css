@@ -5,9 +5,12 @@
 }
 
 h1{
-    display: flex;
-    justify-content:space-around;
     -webkit-text-stroke: 1.5px rgb(32, 32, 32);
     font-family: sans-serif; color: rgb(241, 63, 63);
+
+}
+
+div{
+    -webkit-text-stroke: 1.0px rgb(162, 33, 33);
 
 }
