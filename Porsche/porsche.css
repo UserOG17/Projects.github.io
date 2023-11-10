@@ -7,7 +7,7 @@ h1{
 }
 
 body {
-    background-image: url('Porsche.jpg');
+    background-image: url('./static/Porsche.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
    
