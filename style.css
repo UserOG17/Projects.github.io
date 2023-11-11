@@ -20,3 +20,17 @@
     display: flex;
     align-items: center
 }
+body {
+    background-image: url('index static/lowcountry.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+   
+}
+h1{
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    font-family: sans-serif; color: rgb(255, 255, 255); 
+}
+h2{
+    -webkit-text-stroke: 1.3px rgb(0, 0, 0);
+    font-family: sans-serif; color: rgb(255, 255, 255); 
+}
