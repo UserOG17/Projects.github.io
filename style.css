@@ -5,9 +5,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid darkblue;
+    border-bottom: 2px solid rgb(232, 225, 32);
 }
-#p{
+#a{
     display: flex;
     align-items: center;
+}
+
+#div{
+    display: flex;
+    justify-content: flex-end;
+}
+#h3{
+    display: flex;
+    align-items: center
 }
