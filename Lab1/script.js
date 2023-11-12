@@ -11,3 +11,4 @@ let randomnumber=Math.random()
     console.log(randomnumber)
 let moves = ["rock","paper","scissors"]
 let computer_moves= moves[randomnumber]
+

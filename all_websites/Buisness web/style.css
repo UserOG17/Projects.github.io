@@ -1,0 +1,41 @@
+h1{
+    -webkit-text-stroke: 1.5px rgb(32, 32, 32);
+    font-family: sans-serif; color: rgb(155, 151, 151);
+}
+
+#bus{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    -webkit-text-stroke: 1.5px rgb(32, 32, 32);
+    font-family: sans-serif; color: rgb(155, 151, 151);
+}
+
+h3{
+  display: flex;
+  justify-content:flex-start;
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  font-family: sans-serif; color: rgb(200, 194, 194);
+}
+
+#custom{
+    display: flex;
+    justify-content: flex-end;
+}
+div{
+    -webkit-text-stroke: 1.5px rgb(32, 32, 32);
+    font-family: sans-serif; color: rgb(155, 151, 151); 
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    background-image: url('./static/bus.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+#price{
+    -webkit-text-stroke: 1.5px rgb(32, 32, 32);
+    font-family: sans-serif; color: rgb(203, 201, 201);
+}
