@@ -3,3 +3,8 @@ body {
     background-size: cover; 
     background-repeat: no-repeat; 
 }
+
+h1{
+    -webkit-text-stroke: 1.8px rgb(32, 32, 32);
+    font-family: sans-serif; color: rgb(255, 255, 255);
+}
