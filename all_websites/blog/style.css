@@ -1,0 +1,29 @@
+h1{
+    color: rgb(0, 0, 0);
+}
+div{
+  font-family: monospace;
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+}
+#en{
+    font-family: monospace;
+    font-size: large;  
+}
+body{
+    background-color: rgb(247, 227, 202);
+    border: 2px solid rgb(0, 0, 0);
+    width: 99%;
+    height: 5rem;
+}
+#john{
+    display: flex;
+    justify-content: center;
+}
+#des{
+    border: 2px solid rgb(0, 0, 0);
+    width: 99.8%;
+    height: 30rem;
+    
+}
