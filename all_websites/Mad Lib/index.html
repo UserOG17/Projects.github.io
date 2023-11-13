@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Lib</title>
+</head>
+<body>
+
+    <h1 class="main-title">Let's have fun with Mad Libs!</h1>
+<main>
+  <div class="selections-container">
+    <label class="dropdown-text" for="people-dropdown">Choose a name:</label>
+    <select class="dropdown" name="people" id="people-dropdown">
+      <option value="">--Please choose an option--</option>
+      <option value="Preston">Preston</option>
+      <option value="Kevin">Kevin</option>
+      <option value="Da'Qaun">Da'Qaun</option>
+      <option value="Hope">Hope</option>
+      <option value="Aidan">Aidan</option>
+    </select>
+    <label class="dropdown-text" for="verbs-dropdown">Choose a verb:</label>
+    <select class="dropdown" name="verbs" id="verbs-dropdown">
+      <option value="">--Please choose an option--</option>
+      <option value="playing">playing</option>
+      <option value="listening">listening</option>
+      <option value="walking">walking</option>
+      <option value="running">running</option>
+      <option value="laughing">laughing</option>
+    </select>
+    <label class="dropdown-text" for="location-dropdown">Choose a location:</label>
+    <select class="dropdown" name="location" id="location-dropdown">
+      <option value="">--Please choose an option--</option>
+      <option value="Hawaii">Hawaii</option>
+      <option value="Italy">Italy</option>
+      <option value="NYC">New York City</option>
+      <option value="Egypt">Egypt</option>
+      <option value="Paris">Paris</option>
+    </select>
+    <label class="dropdown-text" for="food-dropdown">Choose a food item:</label>
+    <select class="dropdown" name="food" id="food-dropdown">
+      <option value="">--Please choose an option--</option>
+      <option value="dumplings">Dumplings</option>
+      <option value="garlic">Garlic</option>
+      <option value="cake">Cake</option>
+      <option value="falafels">Falafels</option>
+      <option value="zucchini">Zucchini</option>
+    </select>
+  </div>
+  <button class="btn" id="generate-madlib-btn">Generate Mad Lib</button>
+  <p id="madlib-text"></p>
+</main>
+</body>
+</html>
