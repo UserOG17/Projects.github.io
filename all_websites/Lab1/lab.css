@@ -11,6 +11,21 @@ h1{
 }
 
 div{
-    -webkit-text-stroke: 1.0px rgb(162, 33, 33);
+    -webkit-text-stroke: 1px rgb(162, 33, 33);
+
+}
+h3{
+    -webkit-text-stroke: 1px rgb(32, 32, 32);
+    font-family: sans-serif; color: rgb(241, 63, 63);
+
+}
+#computer{
+    -webkit-text-stroke: .6px rgb(32, 32, 32);
+    font-family: sans-serif; color: rgb(241, 63, 63);
+
+}
+#winner{
+    -webkit-text-stroke: .6px rgb(32, 32, 32);
+    font-family: sans-serif; color: rgb(241, 63, 63);
 
 }
