@@ -5,11 +5,19 @@
   <script src="./script.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Madlib</title>
 </head>
-<p><h1>Lets have fun with Mad Libs!</h1></p>
-<body>
-  <input id="user-input" type="text">
-  <button id="submit" onclick="choose()">Submit</button></div>
+<body id="bodytag">
+  <div><h4>Choose an adjective</h4>
+    <input id="adjectives" type="text">
+    <h4>Choose a place</h4>
+    <input id="nouns" type="text">
+    <h4>Choose a verb</h4>
+    <input id="verbs" type="text">
+    <h4>Choose a person</h4>
+    <input id="name" typ="text">
+    <button id="submit" onclick="Generate()">Generate MadLib</button>
+    <p id="generate"></p></div>
+  </div>
 </body>
 </html>

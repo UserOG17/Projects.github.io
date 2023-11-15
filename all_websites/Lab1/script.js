@@ -63,8 +63,7 @@ function winner(){
     
         winnerText = "Its a tie!"
     }
-    
-    // console.log(winnerText)
+
     winnerTag.innerHTML = winnerText
     computer.innerHTML = computer_moves
    
